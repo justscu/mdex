@@ -1,6 +1,9 @@
 #include <string.h>
 #include <assert.h>
 
+/*
+ 使用字符串来表示２个大数相加
+*/
 char* bigadd(const char* a, const char* b, char* res)
 {
 	assert(a && b && res);
